@@ -62,7 +62,10 @@
 // PROJECTS
 #section("Projects")
 #for project in data.projects [
-  *#linked-name(project)* |#text(style: "italic")[#project.tech]
+  *#project.name* | #text(style: "italic")[#project.tech]
+  #if "link" in project and project.link != "" [
+    | #link(project.link)[[Link]]
+  ]
   #for bullet in project.bullets [
     - #bullet
   ]
@@ -72,8 +75,14 @@
 // ACTIVITIES & EXPERIENCE
 #section("Activities & Experience")
 #for activity in data.activities [
-  *#linked-name(activity)* |#text(style: "italic")[#activity.role] | #activity.dates
-  #for bullet in activity.bullets [
+  *#activity.name*
+  #if "role" in activity and activity.role != "" [
+    | #text(style: "italic")[#activity.role]
+  ]
+  | #activity.dates
+  #if "link" in activity and activity.link != "" [
+    | #link(activity.link)[[Certificate]]
+  ]  #for bullet in activity.bullets [
     - #bullet
   ]
   #v(0.1em)
