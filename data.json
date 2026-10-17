@@ -24,7 +24,7 @@
       "bullets": [
         "Implemented the forward pass of a simplified Transformer (Self-Attention) entirely from scratch in RISC-V Assembly.",
         "Built matrix multiplication and dot product routines manually, including strict integer overflow detection.",
-        "Utilized system calls (`ecall`) for file I/O to parse text files into memory buffers for embedding lookups."
+        "Utilized system calls for file I/O to parse text files into memory buffers for embedding lookups."
       ]
     },
     {
