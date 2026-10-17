@@ -1,0 +1,142 @@
+{
+  "name": "IRINA COJOCARI",
+  "location": "Lisbon, Portugal",
+  "phone": "+351 926 288 022",
+  "email": "cojocariirina567@gmail.com",
+  "github": "github.com/sillymamaco",
+  "linkedin": "linkedin.com/in/irina-cojocari-5b9009407",
+  "education": {
+    "school": "Instituto Superior Técnico",
+    "degree": "BSc in Computer Science and Engineering",
+    "dates": "2025 – Present (Expected 2028)",
+    "gpa": "14.11/20",
+    "coursework": "Operating Systems, Analysis and Synthesis of Algorithms, Object-Oriented Programming, Data Structures and Algorithms, Computer Architecture, Logic for Programming."
+  },
+  "skills": {
+    "languages": "C, Python, Java, Assembly, Prolog",
+    "systems": "Arch Linux (Daily Driver), NixOS, Void, Git, Neovim, Linux CLI, Makefile",
+    "spoken": "Portuguese (Native), English (Fluent)"
+  },
+  "projects": [
+    {
+      "name": "RISC-V Transformer Simulation",
+      "tech": "RISC-V Assembly, Logisim",
+      "link": "https://github.com/sillymamaco/riscv-transformer-assembly",
+      "bullets": [
+        "Implemented the forward pass of a simplified Transformer (Self-Attention) entirely from scratch in RISC-V Assembly.",
+        "Built matrix multiplication and dot product routines manually, including strict integer overflow detection.",
+        "Utilized system calls (`ecall`) for file I/O to parse text files into memory buffers for embedding lookups."
+      ]
+    },
+    {
+      "name": "CloudIST Virtual Machine Simulator",
+      "tech": "C, POSIX, Linux",
+      "link": "",
+      "bullets": [
+        "Developing a concurrent VM simulator in C that manages resource allocation across multiple physical servers.",
+        "Utilizing POSIX file descriptors for file I/O and implementing multi-process execution (`fork`, `exec`, `setrlimit`) alongside multi-threading for parallel processing."
+      ]
+    },
+    {
+      "name": "Express Retail Platform (ERP)",
+      "tech": "Java, UML",
+      "link": "",
+      "bullets": [
+        "Architecting a large-scale retail management system in Java, applying strict OOP principles (Open-Closed) for high extensibility.",
+        "Designing comprehensive UML class diagrams for the core and application packages.",
+        "Implementing Java Serialization for state persistence, custom exceptions, and polymorphic behavior for dynamic pricing."
+      ]
+    },
+    {
+      "name": "Tower Building Algorithm",
+      "tech": "C",
+      "link": "",
+      "bullets": [
+        "Developing an optimized algorithm to calculate the maximum height of a 3D tower with strict stability and rotation constraints.",
+        "Implementing an iterative dynamic programming approach to prevent stack overflow and optimize time/space complexity."
+      ]
+    },
+    {
+      "name": "Discord Announcement Bot",
+      "tech": "Python, Webhooks",
+      "link": "https://github.com/sillymamaco/ist-bot",
+      "bullets": [
+        "Developed a custom Discord bot to scrape and forward university announcements, saving server resources via webhooks.",
+        "Designed the tool to scale for multiple courses and IST communities, using `.env` files for secure configuration."
+      ]
+    },
+    {
+      "name": "Invoice Handler",
+      "tech": "C, Makefile",
+      "link": "https://github.com/sillymamaco/invoice-handler",
+      "bullets": [
+        "Built a robust invoice management system in C to parse, store, and manipulate records efficiently.",
+        "Separated interface and implementation using modular header files (`.h`) and Makefiles."
+      ]
+    },
+    {
+      "name": "Scrabble Game",
+      "tech": "Python",
+      "link": "https://github.com/sillymamaco/scrabble-game",
+      "bullets": [
+        "Developed a terminal-based Scrabble game with multi-language support (English, French, Portuguese) and optimized the game loop."
+      ]
+    },
+    {
+      "name": "Logic Puzzle & Scheduler",
+      "tech": "Prolog",
+      "link": "https://github.com/sillymamaco/logic-puzzle-scheduler",
+      "bullets": [
+        "Developed algorithms in Prolog for analyzing data and generating schedules based on specific constraints."
+      ]
+    },
+    {
+      "name": "Flocking Simulation",
+      "tech": "Python",
+      "link": "https://github.com/sillymamaco/BirdSim",
+      "bullets": [
+        "Created a graphical simulation emulating bird flight patterns and flocking behavior with custom visual assets."
+      ]
+    },
+    {
+      "name": "Automated CV Pipeline",
+      "tech": "Python, Typst, GitHub Actions",
+      "link": "",
+      "bullets": [
+        "Built a CI/CD pipeline that automatically generates a PDF resume from a structured `data.json` file.",
+        "Wrote a Python script to parse JSON data and inject it into a Typst template, completely separating content from formatting.",
+        "Configured GitHub Actions to automatically compile and commit the updated PDF on every `git push`."
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "name": "Security Team Técnico (STT)",
+      "role": "Member",
+      "dates": "2026 – Present",
+      "link": "",
+      "bullets": [
+        "Participate in weekly cybersecurity workshops and compete in Capture The Flag (CTF) challenges.",
+        "Apply practical skills in cryptography, web exploitation, and reverse engineering."
+      ]
+    },
+    {
+      "name": "IEEE-IST Computer Society",
+      "role": "Member",
+      "dates": "2026 – Present",
+      "link": "",
+      "bullets": [
+        "Collaborating with the web development team to maintain and update the organization's website."
+      ]
+    },
+    {
+      "name": "Ser Cientista Research Program",
+      "role": "Universidade de Lisboa",
+      "dates": "2025",
+      "link": "",
+      "bullets": [
+        "Collaborated with a PhD student on the Al4Sci project, applying Python to Artificial Intelligence research in Sciences."
+      ]
+    }
+  ]
+}
