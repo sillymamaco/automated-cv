@@ -101,7 +101,7 @@
     {
       "name": "Automated CV Pipeline",
       "tech": "Python, Typst, GitHub Actions",
-      "link": "",
+      "link": "https://github.com/sillymamaco/automated-cv",
       "bullets": [
         "Built a CI/CD pipeline that automatically generates a PDF resume from a structured `data.json` file.",
         "Wrote a Python script to parse JSON data and inject it into a Typst template, completely separating content from formatting.",
@@ -133,7 +133,7 @@
       "name": "Ser Cientista Research Program",
       "role": "Universidade de Lisboa",
       "dates": "2025",
-      "link": "",
+      "link": "https://github.com/sillymamaco/automated-cv/blob/main/certificates/Irina_Cojocari_SerCientista_Certificado.pdf",
       "bullets": [
         "Collaborated with a PhD student on the Al4Sci project, applying Python to Artificial Intelligence research in Sciences."
       ]
