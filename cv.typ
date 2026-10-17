@@ -50,7 +50,7 @@
 // EDUCATION
 #section("Education")
 *#data.education.school* — Lisbon, Portugal \
-#data.education.degree | #data.education.dates | GPA: #data.education.gpa
+#data.education.degree | #data.education.dates
 - *Coursework:* #data.education.coursework
 
 // TECHNICAL SKILLS
