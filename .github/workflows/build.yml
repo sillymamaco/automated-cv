@@ -1,0 +1,28 @@
+name: Build CV PDF
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "data.json"
+      - "cv.typ"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Typst
+        uses: typst-community/setup-typst@v3
+
+      - name: Compile Typst to PDF
+        run: typst compile cv.typ Irina_Cojocari_CV.pdf
+
+      - name: Commit and push new PDF
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-compile CV PDF from JSON"
+          file_pattern: "Irina_Cojocari_CV.pdf"
