@@ -3,7 +3,7 @@
 	"location": "Lisbon, Portugal",
 	"phone": "+351 926 288 022",
 	"email": "cojocariirina567@gmail.com",
-	"github": "github.com/sillymamaco",
+	"github": "github.com/nullbloop",
 	"linkedin": "linkedin.com/in/irina-cojocari-5b9009407",
 	"education": {
 		"school": "Instituto Superior Técnico",
@@ -20,7 +20,7 @@
 		{
 			"name": "RISC-V Transformer Simulation",
 			"tech": "RISC-V Assembly, Logisim",
-			"link": "https://github.com/sillymamaco/riscv-transformer-assembly",
+			"link": "https://github.com/nullbloop/riscv-transformer-assembly",
 			"bullets": [
 				"Implemented the forward pass of a simplified Transformer (Self-Attention) entirely from scratch in RISC-V Assembly.",
 				"Built matrix multiplication and dot product routines manually, including strict integer overflow detection.",
@@ -58,7 +58,7 @@
 		{
 			"name": "Discord Announcement Bot",
 			"tech": "Python, Webhooks",
-			"link": "https://github.com/sillymamaco/ist-bot",
+			"link": "https://github.com/nullbloop/ist-bot",
 			"bullets": [
 				"Developed a custom Discord bot to scrape and forward university announcements, saving server resources via webhooks.",
 				"Designed the tool to scale for multiple courses and IST communities, using `.env` files for secure configuration."
@@ -67,7 +67,7 @@
 		{
 			"name": "Invoice Handler",
 			"tech": "C, Makefile",
-			"link": "https://github.com/sillymamaco/invoice-handler",
+			"link": "https://github.com/nullbloop/invoice-handler",
 			"bullets": [
 				"Built a robust invoice management system in C to parse, store, and manipulate records efficiently.",
 				"Separated interface and implementation using modular header files (`.h`) and Makefiles."
@@ -76,7 +76,7 @@
 		{
 			"name": "Scrabble Game",
 			"tech": "Python",
-			"link": "https://github.com/sillymamaco/scrabble-game",
+			"link": "https://github.com/nullbloop/scrabble-game",
 			"bullets": [
 				"Developed a terminal-based Scrabble game with multi-language support (English, French, Portuguese) and optimized the game loop."
 			]
@@ -84,7 +84,7 @@
 		{
 			"name": "Logic Puzzle & Scheduler",
 			"tech": "Prolog",
-			"link": "https://github.com/sillymamaco/logic-puzzle-scheduler",
+			"link": "https://github.com/nullbloop/logic-puzzle-scheduler",
 			"bullets": [
 				"Developed algorithms in Prolog for analyzing data and generating schedules based on specific constraints."
 			]
@@ -92,7 +92,7 @@
 		{
 			"name": "Flocking Simulation",
 			"tech": "Python",
-			"link": "https://github.com/sillymamaco/BirdSim",
+			"link": "https://github.com/nullbloop/BirdSim",
 			"bullets": [
 				"Created a graphical simulation emulating bird flight patterns and flocking behavior with custom visual assets."
 			]
@@ -100,7 +100,7 @@
 		{
 			"name": "Automated CV Pipeline",
 			"tech": "Python, Typst, GitHub Actions",
-			"link": "https://github.com/sillymamaco/automated-cv",
+			"link": "https://github.com/nullbloop/automated-cv",
 			"bullets": [
 				"Built a CI/CD pipeline that automatically generates a PDF resume from a structured `data.json` file.",
 				"Wrote a Python script to parse JSON data and inject it into a Typst template, completely separating content from formatting.",
@@ -132,7 +132,7 @@
 			"name": "Ser Cientista Research Program",
 			"role": "Universidade de Lisboa",
 			"dates": "2025",
-			"link": "https://github.com/sillymamaco/automated-cv/blob/main/certificates/Irina_Cojocari_SerCientista_Certificado.pdf",
+			"link": "https://github.com/nullbloop/automated-cv/blob/main/certificates/Irina_Cojocari_SerCientista_Certificado.pdf",
 			"bullets": [
 				"Collaborated with a PhD student on the Al4Sci project, applying Python to Artificial Intelligence research in Sciences."
 			]
